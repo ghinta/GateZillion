@@ -1,4 +1,4 @@
-# Number Gate Runner — Roblox
+# GateZillion — Roblox
 
 **Status:** architecture and repo initialization specification (October 2026). No gameplay implemented yet.
 
@@ -19,9 +19,9 @@ Estimates are planning assumptions, not guaranteed delivery dates. No multiplaye
 
 ```mermaid
 C4Context
-  title Number Gate Runner - Context
+  title GateZillion - Context
   Person(player, "Player", "PC or mobile")
-  System(game, "Number Gate Runner", "3D arithmetic gate arcade experience")
+  System(game, "GateZillion", "3D arithmetic gate arcade experience")
   System_Ext(roblox, "Roblox Platform", "Distribution, identity, hosting, data")
   Rel(player, game, "Plays via Roblox")
   Rel(game, roblox, "Uses platform services")
@@ -31,7 +31,7 @@ C4Context
 
 ```mermaid
 C4Container
-  title Number Gate Runner - Containers
+  title GateZillion - Containers
   Person(player, "Player")
   System_Boundary(game, "Roblox Experience") {
     Container(client, "Client", "Roblox / Luau", "Input, camera, HUD, local visual crowd")
