@@ -1,3 +1,5 @@
+--# selene: allow(incorrect_standard_library_use)
+-- (Lune resolves string requires like "@lune/fs"; Selene's Roblox std only knows instance requires.)
 -- Headless test runner for Lune (https://lune-org.github.io/docs).
 -- Loads the place built by Rojo, so modules resolve exactly as in Roblox (`require(script.Parent.X)`),
 -- then runs every tests/**/*.spec.luau file. Specs use the TestEZ style: describe/it/expect.

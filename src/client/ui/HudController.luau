@@ -226,7 +226,7 @@ local function buildRun(self: Self)
 	run.Parent = self.gui
 	self.run = run
 
-	self.levelName = makeLabel(run, "", UDim2.new(0, 360, 0, 32), UDim2.fromOffset(16, 12), 26)
+	self.levelName = makeLabel(run, "", UDim2.fromOffset(360, 32), UDim2.fromOffset(16, 12), 26)
 	self.levelName.TextXAlignment = Enum.TextXAlignment.Left
 	textStroke(self.levelName, 2)
 
@@ -245,11 +245,11 @@ local function buildRun(self: Self)
 	fill.Parent = bar
 	self.progressFill = fill
 
-	self.countLabel = makeLabel(run, "0", UDim2.new(0, 260, 0, 56), UDim2.new(1, -276, 0, 6), 48)
+	self.countLabel = makeLabel(run, "0", UDim2.fromOffset(260, 56), UDim2.new(1, -276, 0, 6), 48)
 	self.countLabel.TextXAlignment = Enum.TextXAlignment.Right
 	textStroke(self.countLabel, 3)
 
-	self.deltaLabel = makeLabel(run, "", UDim2.new(0, 260, 0, 40), UDim2.new(1, -276, 0, 62), 34)
+	self.deltaLabel = makeLabel(run, "", UDim2.fromOffset(260, 40), UDim2.new(1, -276, 0, 62), 34)
 	self.deltaLabel.TextXAlignment = Enum.TextXAlignment.Right
 	self.deltaLabel.TextTransparency = 1
 	textStroke(self.deltaLabel, 2)
