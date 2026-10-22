@@ -1,0 +1,5 @@
+std = "roblox+testez"
+
+[lints]
+# Luau type annotations make shadowing of locals in nested scopes intentional and readable.
+shadowing = "allow"

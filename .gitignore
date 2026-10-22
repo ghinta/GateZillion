@@ -1,0 +1,16 @@
+# Build output
+/build/
+*.rbxl
+*.rbxlx
+*.rbxl.lock
+*.rbxlx.lock
+sourcemap.json
+
+# Downloaded tooling and type definitions (see scripts/)
+/.tools/
+roblox.yml
+globalTypes.d.luau
+
+# Editors / OS
+.vscode/settings.json
+.DS_Store
