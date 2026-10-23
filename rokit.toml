@@ -1,0 +1,8 @@
+# Pinned toolchain. Install with `rokit install` (https://github.com/rojo-rbx/rokit).
+# Keep these versions in sync with scripts/install-tools.sh (used by CI).
+[tools]
+rojo = "rojo-rbx/rojo@7.5.1"
+stylua = "JohnnyMorganz/StyLua@2.1.0"
+selene = "Kampfkarren/selene@0.29.0"
+lune = "lune-org/lune@0.10.2"
+luau-lsp = "JohnnyMorganz/luau-lsp@1.55.0"
